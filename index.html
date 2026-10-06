@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f4ef" />
+    <meta
+      name="description"
+      content="Kelvin is a graphic designer and web developer creating thoughtful visual identities and polished websites."
+    />
+    <title>Kelvin | Graphic Designer &amp; Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Kelvin, home"
+        >K<span>.</span></a
+      >
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Selected work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="mailto:kelvinokoli713@gmail.com">
+        <span>Let’s talk</span
+        ><i data-lucide="arrow-up-right" aria-hidden="true"></i>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=2000&q=85"
+          aria-hidden="true"
+        >
+          <source
+            src="https://videos.pexels.com/video-files/3130284/3130284-hd_1920_1080_30fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="hero-shade"></div>
+        <div class="hero-portrait">
+          <img
+            src="kelvin-headshot.png"
+            alt="Kelvin wearing a white shirt, patterned tie, and black waistcoat"
+            width="435"
+            height="622"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">
+            <span class="status-dot"></span> Available for select projects
+          </p>
+          <h1 id="hero-title">
+            <span class="name-reveal">Kelvin</span
+            ><span class="name-period">.</span>
+          </h1>
+          <p class="hero-role">
+            Graphic designer <span aria-hidden="true">/</span> web developer
+          </p>
+          <p class="hero-intro">
+            I bring thoughtful ideas to life through distinctive visuals and
+            polished websites.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#work"
+              >Explore my work
+              <i data-lucide="arrow-down-right" aria-hidden="true"></i
+            ></a>
+            <a class="text-link" href="mailto:kelvinokoli713@gmail.com"
+              >Get in touch
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-caption">
+          <span>Independent designer</span
+          ><span>Based online · Working worldwide</span>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about section"
+          ><i data-lucide="move-down" aria-hidden="true"></i
+        ></a>
+      </section>
+
+      <section class="feature-hero" aria-labelledby="feature-title">
+        <video
+          class="feature-hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1800&q=85"
+          aria-hidden="true"
+        >
+          <source
+            src="https://videos.pexels.com/video-files/3130284/3130284-hd_1920_1080_30fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="feature-hero-shade"></div>
+        <div class="feature-hero-copy">
+          <p class="feature-label">
+            <span>DESIGN MINDED. BUILT FOR PEOPLE.</span>
+          </p>
+          <h2 id="feature-title">
+            From first idea<br />to <em>something real.</em>
+          </h2>
+          <a class="feature-link" href="#work">
+            See what I make
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        <span class="feature-index" aria-hidden="true"
+          >A little more about how I work · 2026</span
+        >
+      </section>
+
+      <section
+        class="about section-wrap"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="section-kicker">
+          <span>01</span><span>THE PERSON BEHIND THE PIXELS</span>
+        </div>
+        <div class="about-grid">
+          <figure class="about-portrait">
+            <img
+              src="kelvin-headshot.png"
+              alt="Kelvin in a white shirt, patterned tie, and black waistcoat"
+              width="435"
+              height="622"
+              loading="lazy"
+            />
+            <figcaption>
+              Independent designer <span>·</span> Worldwide
+            </figcaption>
+          </figure>
+          <h2 id="about-title">Good work starts with <em>curiosity.</em></h2>
+          <div class="about-copy">
+            <p>
+              I’m Kelvin, a graphic designer and web developer who cares about
+              the small details and the bigger picture. I create thoughtful
+              visual identities and build polished, responsive websites.
+            </p>
+            <div class="skill-list" aria-label="Skills">
+              <span>Brand identity</span><span>Graphic design</span
+              ><span>Web design</span><span>Front-end development</span>
+            </div>
+          </div>
+        </div>
+        <dl class="about-facts">
+          <div>
+            <dt>Based</dt>
+            <dd>Online, working worldwide</dd>
+          </div>
+          <div>
+            <dt>Focus</dt>
+            <dd>Graphic and web design</dd>
+          </div>
+          <div>
+            <dt>Approach</dt>
+            <dd>Clear ideas, considered details</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="work section-wrap" id="work" aria-labelledby="work-title">
+        <div class="section-kicker">
+          <span>02</span><span>A FEW THINGS I’VE MADE</span>
+        </div>
+        <div class="work-heading">
+          <h2 id="work-title">
+            Selected work<span class="name-period">.</span>
+          </h2>
+          <p>A collection of visual explorations and design studies.</p>
+        </div>
+        <div class="gallery-grid" aria-label="Graphic design gallery">
+          <button
+            class="gallery-item"
+            type="button"
+            data-gallery-item
+            data-title="Color in Composition"
+            data-category="Color study"
+            data-full="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+            aria-label="View Color in Composition"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&amp;fit=crop&amp;w=1200&amp;q=88"
+              alt="Colorful graphic design compositions arranged on a surface"
+              loading="lazy"
+            />
+            <span class="gallery-label"
+              ><span>Color study</span
+              ><strong>Color in Composition</strong></span
+            >
+            <span class="gallery-open"
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></span>
+          </button>
+          <button
+            class="gallery-item"
+            type="button"
+            data-gallery-item
+            data-title="Digital Dashboard"
+            data-category="Web design"
+            data-full="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+            aria-label="View Digital Dashboard"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1200&amp;q=88"
+              alt="Website dashboard design displayed on a laptop"
+              loading="lazy"
+            />
+            <span class="gallery-label"
+              ><span>Web design</span><strong>Digital Dashboard</strong></span
+            >
+            <span class="gallery-open"
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></span>
+          </button>
+          <button
+            class="gallery-item"
+            type="button"
+            data-gallery-item
+            data-title="Quiet Geometry"
+            data-category="Visual identity"
+            data-full="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+            aria-label="View Quiet Geometry"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&amp;fit=crop&amp;w=1200&amp;q=88"
+              alt="Sculptural abstract forms with a vivid color palette"
+              loading="lazy"
+            />
+            <span class="gallery-label"
+              ><span>Visual identity</span><strong>Quiet Geometry</strong></span
+            >
+            <span class="gallery-open"
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></span>
+          </button>
+          <button
+            class="gallery-item"
+            type="button"
+            data-gallery-item
+            data-title="A Study in Shape"
+            data-category="Art direction"
+            data-full="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+            aria-label="View A Study in Shape"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&amp;fit=crop&amp;w=1200&amp;q=88"
+              alt="Expressive abstract artwork in a gallery"
+              loading="lazy"
+            />
+            <span class="gallery-label"
+              ><span>Art direction</span><strong>A Study in Shape</strong></span
+            >
+            <span class="gallery-open"
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></span>
+          </button>
+          <button
+            class="gallery-item"
+            type="button"
+            data-gallery-item
+            data-title="Web Experience"
+            data-category="Digital design"
+            data-full="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+            aria-label="View Web Experience"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&amp;fit=crop&amp;w=1200&amp;q=88"
+              alt="A digital website layout shown on a computer"
+              loading="lazy"
+            />
+            <span class="gallery-label"
+              ><span>Digital design</span><strong>Web Experience</strong></span
+            >
+            <span class="gallery-open"
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></span>
+          </button>
+          <button
+            class="gallery-item"
+            type="button"
+            data-gallery-item
+            data-title="Collected Color"
+            data-category="Palette study"
+            data-full="https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+            aria-label="View Collected Color"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&amp;fit=crop&amp;w=1200&amp;q=88"
+              alt="Brightly colored contemporary artwork"
+              loading="lazy"
+            />
+            <span class="gallery-label"
+              ><span>Palette study</span><strong>Collected Color</strong></span
+            >
+            <span class="gallery-open"
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></span>
+          </button>
+          <button
+            class="gallery-item"
+            type="button"
+            data-gallery-item
+            data-title="Studio Notes"
+            data-category="Creative process"
+            data-full="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+            aria-label="View Studio Notes"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&amp;fit=crop&amp;w=1200&amp;q=88"
+              alt="Artist studio filled with color and creative materials"
+              loading="lazy"
+            />
+            <span class="gallery-label"
+              ><span>Creative process</span><strong>Studio Notes</strong></span
+            >
+            <span class="gallery-open"
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></span>
+          </button>
+          <button
+            class="gallery-item"
+            type="button"
+            data-gallery-item
+            data-title="Made to Be Seen"
+            data-category="Print exploration"
+            data-full="https://images.unsplash.com/photo-1507908708918-778587c9e563?auto=format&amp;fit=crop&amp;w=2200&amp;q=90"
+            aria-label="View Made to Be Seen"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1507908708918-778587c9e563?auto=format&amp;fit=crop&amp;w=1200&amp;q=88"
+              alt="Bold colorful printed graphic design"
+              loading="lazy"
+            />
+            <span class="gallery-label"
+              ><span>Print exploration</span
+              ><strong>Made to Be Seen</strong></span
+            >
+            <span class="gallery-open"
+              ><i data-lucide="arrow-up-right" aria-hidden="true"></i
+            ></span>
+          </button>
+        </div>
+      </section>
+
+      <dialog class="gallery-viewer" aria-labelledby="gallery-title">
+        <div class="gallery-viewer-frame">
+          <div class="gallery-viewer-toolbar">
+            <span class="gallery-counter" aria-live="polite"></span>
+            <button
+              class="gallery-close"
+              type="button"
+              aria-label="Close gallery"
+            >
+              <i data-lucide="x" aria-hidden="true"></i>
+            </button>
+          </div>
+          <button
+            class="gallery-nav gallery-previous"
+            type="button"
+            aria-label="Previous image"
+          >
+            <i data-lucide="arrow-left" aria-hidden="true"></i>
+          </button>
+          <figure class="gallery-viewer-content">
+            <img class="gallery-viewer-image" src="" alt="" />
+            <figcaption>
+              <span class="gallery-viewer-category"></span>
+              <strong id="gallery-title"></strong>
+            </figcaption>
+          </figure>
+          <button
+            class="gallery-nav gallery-next"
+            type="button"
+            aria-label="Next image"
+          >
+            <i data-lucide="arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </dialog>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner">
+          <div class="section-kicker">
+            <span>03</span><span>HAVE SOMETHING IN MIND?</span>
+          </div>
+          <div class="contact-content">
+            <div class="contact-intro">
+              <h2 id="contact-title">Let’s make it <em>matter.</em></h2>
+              <p>
+                Tell me a little about what you’re planning. I’ll get back to
+                you by email.
+              </p>
+              <a class="contact-link" href="mailto:kelvinokoli713@gmail.com">
+                Or email me directly
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+            <form
+              class="contact-form"
+              action="https://formspree.io/f/mkjoggdw"
+              method="post"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="New portfolio inquiry"
+              />
+              <div class="form-row">
+                <label>
+                  Your name
+                  <input
+                    type="text"
+                    name="name"
+                    autocomplete="name"
+                    placeholder="Name"
+                    required
+                  />
+                </label>
+                <label>
+                  Email address
+                  <input
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </label>
+              </div>
+              <label>
+                What do you need?
+                <select name="project_type" required>
+                  <option value="" disabled selected>
+                    Select a project type
+                  </option>
+                  <option>Graphic design</option>
+                  <option>Website design</option>
+                  <option>Web development</option>
+                  <option>Brand identity</option>
+                  <option>Something else</option>
+                </select>
+              </label>
+              <label>
+                Tell me about your project
+                <textarea
+                  name="message"
+                  rows="4"
+                  placeholder="A few details about your idea, goals, or timeline..."
+                  required
+                ></textarea>
+              </label>
+              <button class="button contact-submit" type="submit">
+                Send inquiry
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="wordmark footer-mark" href="#home" aria-label="Back to top"
+            >K<span>.</span></a
+          >
+          <div>
+            <strong>Kelvin Okoli</strong>
+            <span>Graphic designer &amp; web developer</span>
+          </div>
+        </div>
+        <nav class="footer-contacts" aria-label="Contact Kelvin">
+          <a
+            class="footer-link"
+            href="https://wa.me/233552222373"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i data-lucide="message-circle" aria-hidden="true"></i>
+            <span
+              ><strong>WhatsApp</strong><small>+233 55 222 2373</small></span
+            >
+          </a>
+          <a
+            class="footer-link"
+            href="https://github.com/kelvinokoli713-hash"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i data-lucide="github" aria-hidden="true"></i>
+            <span
+              ><strong>GitHub</strong><small>kelvinokoli713-hash</small></span
+            >
+          </a>
+          <a class="footer-link" href="mailto:kelvinokoli713@gmail.com">
+            <i data-lucide="mail" aria-hidden="true"></i>
+            <span
+              ><strong>Email</strong
+              ><small>kelvinokoli713@gmail.com</small></span
+            >
+          </a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>Available for select projects</span>
+        <span>© 2026 Kelvin Okoli</span>
+      </div>
+    </footer>
+
+    <script>
+      if (window.lucide) lucide.createIcons();
+
+      const menuButton = document.querySelector(".menu-toggle");
+      const navigation = document.querySelector(".main-nav");
+      menuButton.addEventListener("click", () => {
+        const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+        menuButton.setAttribute("aria-expanded", String(!isOpen));
+        menuButton.setAttribute(
+          "aria-label",
+          isOpen ? "Open navigation" : "Close navigation",
+        );
+        navigation.classList.toggle("is-open", !isOpen);
+      });
+      navigation.addEventListener("click", (event) => {
+        if (event.target.closest("a")) {
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.setAttribute("aria-label", "Open navigation");
+          navigation.classList.remove("is-open");
+        }
+      });
+
+      const galleryItems = [
+        ...document.querySelectorAll("[data-gallery-item]"),
+      ];
+      const galleryViewer = document.querySelector(".gallery-viewer");
+      const galleryViewerImage = document.querySelector(
+        ".gallery-viewer-image",
+      );
+      const galleryViewerTitle = document.querySelector("#gallery-title");
+      const galleryViewerCategory = document.querySelector(
+        ".gallery-viewer-category",
+      );
+      const galleryCounter = document.querySelector(".gallery-counter");
+      let activeGalleryIndex = 0;
+
+      const showGalleryItem = () => {
+        const item = galleryItems[activeGalleryIndex];
+        galleryViewerImage.src = item.dataset.full;
+        galleryViewerImage.alt = item.querySelector("img").alt;
+        galleryViewerTitle.textContent = item.dataset.title;
+        galleryViewerCategory.textContent = item.dataset.category;
+        galleryCounter.textContent = `${String(activeGalleryIndex + 1).padStart(2, "0")} / ${String(galleryItems.length).padStart(2, "0")}`;
+      };
+
+      galleryItems.forEach((item, index) => {
+        item.addEventListener("click", () => {
+          activeGalleryIndex = index;
+          showGalleryItem();
+          galleryViewer.showModal();
+        });
+      });
+      document.querySelector(".gallery-close").addEventListener("click", () => {
+        galleryViewer.close();
+      });
+      document
+        .querySelector(".gallery-previous")
+        .addEventListener("click", () => {
+          activeGalleryIndex =
+            (activeGalleryIndex - 1 + galleryItems.length) %
+            galleryItems.length;
+          showGalleryItem();
+        });
+      document.querySelector(".gallery-next").addEventListener("click", () => {
+        activeGalleryIndex = (activeGalleryIndex + 1) % galleryItems.length;
+        showGalleryItem();
+      });
+      galleryViewer.addEventListener("click", (event) => {
+        if (event.target === galleryViewer) galleryViewer.close();
+      });
+      galleryViewer.addEventListener("keydown", (event) => {
+        if (event.key === "ArrowLeft") {
+          activeGalleryIndex =
+            (activeGalleryIndex - 1 + galleryItems.length) %
+            galleryItems.length;
+          showGalleryItem();
+        }
+        if (event.key === "ArrowRight") {
+          activeGalleryIndex = (activeGalleryIndex + 1) % galleryItems.length;
+          showGalleryItem();
+        }
+      });
+
+      const revealItems = document.querySelectorAll(
+        ".section-kicker, .about-grid, .work-heading, .gallery-item, .contact-inner",
+      );
+      if ("IntersectionObserver" in window) {
+        const revealObserver = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.14 },
+        );
+        revealItems.forEach((item) => {
+          item.classList.add("reveal");
+          revealObserver.observe(item);
+        });
+      }
+    </script>
+  </body>
+</html>
